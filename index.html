@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GamesRank</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Baza gier</h2>
+        <main>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tytuł gry</th>
+                            <th>Ocena</th>
+                            <th>Szcegóły</th>
+                            <th>Usuń grę</th>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="game-table-body">
+
+                    </tbody>
+                </table>
+                <p id="game-details"></p>
+            </section>
+            <section class="form">
+                <form>
+                    <input name="title" placeholder="Tytuł gry", id="game-title">
+                    <input name="rating" placeholder="Ocena" type="number" id="rate">
+                    <input name="details" placeholder="Opis" id="game-description">
+                    <button type="button" id="add-button">Dodaj grę</button>
+                </form>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+</html>
