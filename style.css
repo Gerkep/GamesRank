@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+table, td, th, tr{
+border: 2px solid black;
+border-collapse: collapse;
+}
+main, table{
+    width: 100%;
+    margin: auto;
+    max-width: 950px;
+}
+form{
+    width: 100%;
+}
+thead > tr{
+    background-color: lightgreen;
+}
+input{
+    display: block;
+    width: 100%;
+}
+button{
+    border-radius: 30px;
+    background-color: blanchedalmond;
+}
+h2{
+    font-weight: bolder;
+    font-size: 60px;
+}
